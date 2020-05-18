@@ -432,9 +432,10 @@ p2 {
 /****************************************************/
 /******************* UNDERLINE **********************/
 /****************************************************/
-a1 {
+
+a {
     text-decoration: none;
-    background-image: linear-gradient(#4170ab, #4170ab);
+    background-image: linear-gradient(#9DE0AD, #9DE0AD);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
@@ -443,6 +444,6 @@ a1 {
     font-weight: bold;
 }
 
-a1:hover, a1:focus {
+a:hover, a:focus {
     background-size: 100% 2px;
 }
