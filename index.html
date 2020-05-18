@@ -9,46 +9,36 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="icon" type="image/png" href="img/g.PNG"/>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-<script src="js/slide.js"></script>
-
-
-<style>
-body, html {height: 100%}
-.bgimg {
-  background-image: url('img/mtns.jpg');
-  min-height:65%;
-  min-width:100%;
-  background-position: center;
-  background-size: cover;
-}
-</style>
+<script src="js/navbar.js"></script>
 
 <body>
 
 <!------------------ HEADER ---------------------->
 <div class="header">
   <a href="https://grantho.com" class="logo"><span class="half_highlight_yellow">GRANT HO</span></a>
-  <div class="header-right">
-    <a href="#about" style="text-decoration: underline; -webkit-text-decoration-color: #F76C6C; text-decoration-color: #F76C6C;">about me</a>
-    <a href="#highlights" style="text-decoration: underline; -webkit-text-decoration-color: #F76C6C; text-decoration-color: #F76C6C;">highlights</a>
-    <a href="#projects" style="text-decoration: underline; -webkit-text-decoration-color: #F76C6C; text-decoration-color: #F76C6C;">projects</a>
-    <a href="#contact" style="text-decoration: underline; -webkit-text-decoration-color: #F76C6C; text-decoration-color: #F76C6C;">contact</a>
-    <a href="grant_ho_resume.pdf" style="text-decoration: underline; -webkit-text-decoration-color: #F76C6C; text-decoration-color: #F76C6C;">résumé</a>
+    <div class="header-right" style="padding:15px;">
+      <a href="#about">about me</a>
+      <a href="#highlights">highlights</a>
+      <a href="#projects">projects</a>
+      <a href="#contact">contact</a>
+      <a href="grant_ho_resume.pdf">résumé</a>
+    </div>
   </div>
 </div>
 
-<hr style="height:1.3px;border:none;color:#c9c9c9;background-color:#c9c9c9;" />
+
 
 <!------------------ ABOUT ME ---------------------->
 <section>
   <div id="about" class="aboutme">
-    <img src="img/headshot.png" style="float: right; margin-left:60px; width:35%;">
+    <img src="img/headshot.png" class="responsive">
     <h2><span class="half_highlight_blue"><b>Hi, I'm Grant Ho</b></span></h2>
       <p>I am a rising sophomore studying Computer Science at the University of Michigan. I was born and raised in Denver, CO and enjoy an active lifestyle skiing, hiking, and playing soccer.</p>
       <p>I am driven, passionate, and a team-oriented leader with an interest in
@@ -62,7 +52,7 @@ body, html {height: 100%}
 <!------------------ EXPERIENCE ---------------------->
 <section id="highlights" style ="background-color: #f5f5f5;">
   <div class="timeline_padding">
-    <h2 style="border-bottom: 2px solid #4170ab; width: 150px;"><b>Highlights</b></h2>
+    <h2 style="border-bottom: 2px solid #9DE0AD; width: 150px;"><b>Highlights</b></h2>
   </div>
 </section>
 <section style ="background-color: #f5f5f5;">
@@ -119,7 +109,7 @@ body, html {height: 100%}
     <div class="container right">
       <div class="content">
         <h2><b>Mar. 2020</b></h2>
-        <p>Moved Home Due Covid-19  😞 </p>
+        <p>Moved Home Due Covid-19 😞</p>
       </div>
     </div>
   </div>
@@ -129,7 +119,7 @@ body, html {height: 100%}
 <!------------------ PROJECTS ---------------------->
 <section id="projects" style="padding-bottom:75px;">
   <div class="projects">
-    <h2 style="border-bottom: 2px solid #F76C6C; width: 120px;"><b>Projects</b></h2>
+    <h2 style="border-bottom: 2px solid #4170ab; width: 120px;"><b>Projects</b></h2>
   </div>
   <div class="projects">
     <div class="row">
@@ -138,9 +128,7 @@ body, html {height: 100%}
       <h3><span class="half_highlight_yellow"><b>Jim Harbaugh Twitter Bot</b></span></h3>
       <h3> </h3>
       <p>My first attempt at building a web scrapper. The web scrapper scraps pictures of Michigan Football Head Coach Jim Harbaugh and posts the pictures to Twitter.</p>
-      <a href="https://github.com/gho19/Twitter-Bot">
-        <p style="text-decoration: underline; -webkit-text-decoration-color: #F76C6C; text-decoration-color: #F76C6C;"><b>View Project</b></p>
-      </a>
+        <a1 href="https://github.com/gho19/Twitter-Bot">View Project</a1>
     </div>
   </div>
 
@@ -149,14 +137,13 @@ body, html {height: 100%}
       <h3><span class="half_highlight_yellow"><b>M-SOC Website</b></span></h3>
       <h3> </h3>
       <p>Built and designed website for the Michigan Soccer Analytics Society using HTML, CSS, and JavaScript. Manage and update the website frequently with soccer analysis.</p>
-      <a href="https://msocanalytics.org">
-        <p style="text-decoration: underline; -webkit-text-decoration-color: #F76C6C; text-decoration-color: #F76C6C;"><b>View Project</b></p>
-      </a>
+        <a1 href="https://msocanalytics.org">View Project</a1>
     </div>
   </div>
 </section>
 
-<hr style="height:1.3px;border:none;color:#c9c9c9;background-color:#c9c9c9;" />
+<hr style="height:10px;border:none;color:#f5f5f5;background-color:#f5f5f5;" />
+
 
 <!------------------ FUN FACTS ---------------------->
 <!--
@@ -201,8 +188,7 @@ body, html {height: 100%}
 <!------------------ FOOTER ---------------------->
 <section id="contact" class="footer">
   <div>
-    <p2><b>Let's Connect!</b></p2>
-
+    <p2><b><span class="half_highlight_yellow">Let's Connect!</span></b></p2>
     <br>
     <br>
     <!-- LinkedIn Button -->
@@ -222,7 +208,6 @@ body, html {height: 100%}
     <br>
 
     <p>© 2020 Grant Ho. All Rights Reserved.</p>
-
 
   </div>
 </section>
