@@ -120,7 +120,7 @@
   margin-right:15%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1100px) {
   .timeline_padding {
     margin-left: 11%;
   }
