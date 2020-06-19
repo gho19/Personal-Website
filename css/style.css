@@ -14,7 +14,7 @@ html {
 }
 
 :root {
-  --mainColor: #F76C6C;
+  --mainColor: #6f9fd6;
 }
 
 /* Style the header links */
@@ -152,7 +152,7 @@ body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #A8D0E6;
+  background-color: #2d4a75;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -175,7 +175,7 @@ body {
   height: 25px;
   right: -12px;
   background-color: white;
-  border: 4px solid #A8D0E6;
+  border: 4px solid #2d4a75;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -349,12 +349,18 @@ body {
 /****************************************************/
 
 .half_highlight_blue {
-  background: linear-gradient(to top, #A8D0E6 50%, transparent 30%);
+  background: linear-gradient(to top, #cae2f0 50%, transparent 30%);
 }
 
 .half_highlight_yellow {
   background: linear-gradient(to top, #F8E9A1 50%, transparent 30%);
 }
+
+.half_highlight_pink {
+  background: linear-gradient(to top, #F76C6C 50%, transparent 30%);
+}
+
+
 
 /****************************************************/
 /************************ P *************************/
@@ -475,7 +481,7 @@ p2 {
 
 a {
     text-decoration: none;
-    background-image: linear-gradient(#9DE0AD, #9DE0AD);
+    background-image: linear-gradient(#2e5594, #2e5594);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
