@@ -6,7 +6,9 @@ html {
   scroll-behavior: smooth;
   overflow-y: scroll;
   overflow-x: scroll;
-  width: auto!important; overflow-x: hidden!important
+  width: auto!important; overflow-x: hidden!important;
+  overflow-y: scroll; /* has to be scroll, not auto */
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Style the header with a grey background and some padding */
