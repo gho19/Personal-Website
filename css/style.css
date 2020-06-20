@@ -14,7 +14,7 @@ html {
 }
 
 :root {
-  --mainColor: #6f9fd6;
+  --mainColor: #83acdc ;
 }
 
 /* Style the header links */
@@ -349,15 +349,15 @@ body {
 /****************************************************/
 
 .half_highlight_blue {
-  background: linear-gradient(to top, #cae2f0 50%, transparent 30%);
+  background: linear-gradient(to top, #082d4f 10%, transparent 10%);
 }
 
 .half_highlight_yellow {
   background: linear-gradient(to top, #F8E9A1 50%, transparent 30%);
 }
 
-.half_highlight_pink {
-  background: linear-gradient(to top, #F76C6C 50%, transparent 30%);
+.half_highlight_green {
+  background: linear-gradient(to top, #b0ffd0 50%, transparent 30%);
 }
 
 
