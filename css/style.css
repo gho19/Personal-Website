@@ -15,7 +15,7 @@ html {
 
 @media only screen and (max-width: 768px) {
   .phone-width {
-    width: 120%;
+    width: 100%;
   }
 }
 
@@ -157,7 +157,7 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  width: 1200px;
+  width: 85%;
   margin: 0 auto;
 }
 
