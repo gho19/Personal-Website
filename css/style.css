@@ -151,7 +151,7 @@ html {
 /* Set a background color */
 body {
   font-family: 'Roboto', sans-serif;
-  max-width: auto;
+  max-width: 100%;
 }
 
 /* The actual timeline (the vertical ruler) */
