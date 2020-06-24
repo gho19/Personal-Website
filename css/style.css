@@ -9,6 +9,7 @@ html {
   width: auto!important; overflow-x: hidden!important;
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
+  max-width: auto;
 }
 
 /* Style the header with a grey background and some padding */
@@ -143,6 +144,7 @@ html {
 /* Set a background color */
 body {
   font-family: 'Roboto', sans-serif;
+  max-width: auto;
 }
 
 /* The actual timeline (the vertical ruler) */
