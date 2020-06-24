@@ -157,7 +157,7 @@ body {
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
-  width: 85%;
+  width: 1200px;
   margin: 0 auto;
 }
 
