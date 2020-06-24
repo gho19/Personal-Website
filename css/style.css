@@ -14,7 +14,9 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
-  width: 100%;
+  .phone-width {
+    width: 100%;
+  }
 }
 
 /* Style the header with a grey background and some padding */
@@ -361,7 +363,7 @@ body {
 /****************************************************/
 
 .half_highlight_blue {
-  background: linear-gradient(to top, #2d4a75 10%, transparent 9%);
+  background: linear-gradient(to top, #2d4a75 7%, transparent 1%);
 }
 
 .half_highlight_yellow {
