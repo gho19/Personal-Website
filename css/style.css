@@ -10,6 +10,11 @@ html {
   overflow-y: scroll; /* has to be scroll, not auto */
   -webkit-overflow-scrolling: touch;
   max-width: auto;
+
+}
+
+@media only screen and (max-width: 768px) {
+  width: 100%;
 }
 
 /* Style the header with a grey background and some padding */
@@ -501,6 +506,9 @@ a:hover, a:focus {
     background-size: 100% 2px;
 }
 
+/****************************************************/
+/********************* FADER ************************/
+/****************************************************/
 #fader {
     position: fixed;
     top: 0;
