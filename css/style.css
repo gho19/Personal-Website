@@ -163,6 +163,7 @@ body {
   position: relative;
   width: 85%;
   margin: 0 auto;
+  background-color: #f5f5f5;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -183,6 +184,7 @@ body {
   position: relative;
   background-color: inherit;
   width: 50%;
+  background-color: #f5f5f5;
 }
 
 /* The circles on the timeline */
@@ -263,6 +265,7 @@ body {
     width: 100%;
     padding-left: 70px;
     padding-right: 25px;
+    background-color: #f5f5f5;
   }
 
 /* Make sure that all arrows are pointing leftwards */
@@ -506,7 +509,7 @@ a:hover, a:focus {
 
 section {
   opacity: 0;
-  transition: opacity .65s;
+  transition: opacity 1.2s;
   background-color: #f5f5f5;
 }
 
