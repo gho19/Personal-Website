@@ -12,14 +12,16 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="icon" type="image/png" href="img/g.png"/>
+<link rel="import" href="mailgo/dist/mailgo.min.js">
 
+<script src="https://unpkg.com/mailgo@0.9.10/dist/mailgo.min.js" defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <script src="js/navbar.js"></script>
 <script src="js/scrolling.js"></script>
-<script src="js/fader.js"></script>
+<!-- <script src="js/fader.js"></script> -->
 <script src="js/jquery.js"></script>
 <script src="js/fadein.js"></script>
 
@@ -36,12 +38,12 @@
     </script>
     <a href="https://grantho.com" class="logo"><span class="half_highlight_yellow">GRANT HO</span></a>
       <div class="header-right" style="padding:15px;">
-        <a href="#about">about me</a>
-        <a href="#highlights">highlights</a>
-        <a href="#projects">projects</a>
-        <a href="#contact">contact</a>
-        <a href="https://medium.com/@grantyho" target="_blank">blog</a>
-        <a href="grant-ho-resume.pdf" target="_blank">résumé</a>
+        <a href="#about"><b>about me</b></a>
+        <a href="#highlights"><b>highlights</b></a>
+        <a href="#projects"><b>projects</b></a>
+        <a href="#contact"><b>contact</b></a>
+        <a href="https://medium.com/@grantyho" target="_blank"><b>blog</b></a>
+        <a href="grant-ho-resume.pdf" target="_blank"><b>résumé</b></a>
       </div>
     </div>
   </div>
@@ -291,7 +293,7 @@
             <h3><span class="half_highlight_yellow"><b>Personal Website</b></span></h3>
             <h3> </h3>
             <p>This website is a culmination of weeks of work highlighting big and small accomplishments in my life from senior year of high school to present day. View the source code on GitHub.</p>
-              <a href="https://github.com/gho19/Personal-Website" target="_blank">View Repository</a>
+              <a href="https://github.com/gho19/Personal-Website" target="_blank" class="slide">View Repository</a>
           </div>
         </div>
 
@@ -301,7 +303,7 @@
             <h3><span class="half_highlight_yellow"><b>CSS @ Michigan Website</b></span></h3>
             <h3> </h3>
             <p>Built and designed website for the Collegiate Soccer Society @ Michigan using HTML, CSS, and JavaScript. Manage and update the website frequently with soccer analysis on the daily blog.</p>
-              <a href="https://michigansoccersociety.com" target="_blank">Visit Website</a>
+              <a href="https://michigansoccersociety.com" target="_blank" class="slide">Visit Website</a>
           </div>
         </div>
 
@@ -310,7 +312,7 @@
             <h3><span class="half_highlight_yellow"><b>Research on Hypertension</b></span></h3>
             <h3> </h3>
             <p>Conducted research at the University of Colorado Anschutz Medical Campus to improve hypertension medication adherence and blood pressure control in patients.</p>
-              <a href="https://link.springer.com/article/10.1007/s11906-018-0830-x" target="_blank">Read Article</a>
+              <a href="https://link.springer.com/article/10.1007/s11906-018-0830-x" target="_blank" class="slide">Read Article</a>
           </div>
         </div>
 
@@ -325,7 +327,7 @@
           <div class="card">
             <h3><span class="half_highlight_yellow"><b>Enlight Cohort Projects</b></span></h3>
             <p>Through this two week intensive web development and data analytics cohort, I enhanced skills for HTML, CSS, and JavaScript while also learning more about APIs.</p>
-              <a href="https://github.com/gho19/Enlight-Cohort-Projects" target="_blank">View Projects</a>
+              <a href="https://github.com/gho19/Enlight-Cohort-Projects" target="_blank" class="slide">View Projects</a>
           </div>
         </div>
 
@@ -333,7 +335,7 @@
           <div class="card">
             <h3><span class="half_highlight_yellow"><b>AHA Poster Presentation</b></span></h3>
             <p>Selected to present poster titled Continuity Matters: Uninterrupted Ablation is More Effective Than "Off and On" Ablation at the 2018 American Heart Association Conference in Chicago.</p>
-              <a href="img/aha_research.png" target="_blank">See Poster</a>
+              <a href="img/aha_research.png" target="_blank" class="slide">See Poster</a>
           </div>
         </div>
 
@@ -341,7 +343,7 @@
           <div class="card">
             <h3><span class="half_highlight_yellow"><b>Jim Harbaugh Twitter Bot</b></span></h3>
             <p>My first attempt at building a web scrapper. This web scrapper scrapes pictures of Michigan Football Head Coach Jim Harbaugh and posts the pictures to Twitter <a href="https://twitter.com/hashtag/goblue?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Ehashtag">#GoBlue!</a></p>
-              <a href="https://github.com/gho19/Twitter-Bot" target="_blank">View Project</a>
+              <a href="https://github.com/gho19/Twitter-Bot" target="_blank" class="slide">View Project</a>
           </div>
         </div>
 
@@ -356,8 +358,8 @@
         <div class="column">
           <div class="card">
             <h3><span class="half_highlight_yellow"><b>"Momentum" Chrome Extension</b></span></h3>
-            <p>Practing JS, I built a Chrome extension similar to the popular Momentum extension that displays nature backgrounds but with slight modifications. Pending Approval.</p>
-              <a href="https://chrome.google.com/webstore/detail/grant-homentum/kkjhooecpeljddkdegimlfleblaejikk?hl=en&authuser=0" target="_blank">Try it here!</a>
+            <p>Practing JS, I built a Chrome extension similar to the popular Momentum extension that displays nature backgrounds but with slight modifications.</p>
+              <a href="https://chrome.google.com/webstore/detail/grant-homentum/kkjhooecpeljddkdegimlfleblaejikk?hl=en&authuser=0" target="_blank" class="slide">Try it here!</a>
           </div>
         </div>
 
@@ -377,15 +379,15 @@
       <br>
       <br>
       <!-- LinkedIn Button -->
-      <a href="https://www.linkedin.com/in/gho/" target="blank" class="social_container">
+      <a href="https://www.linkedin.com/in/gho/" target="blank" class="social_container" class="slide">
         <i class="fab fa-linkedin-in" style="font-size:28px;"></i>
       </a>
        <!-- GitHub Button -->
-      <a href="https://github.com/gho19" target="blank" class="social_container">
+      <a href="https://github.com/gho19" target="blank" class="social_container" class="slide">
         <i class="fab fa-github" style="font-size:28px;"></i>
       </a>
       <!-- Email Button -->
-      <a href="mailto:grantho@umich.edu" target="blank" class="social_container">
+      <a href="mailto:grantho@umich.edu" target="blank" class="social_container" class="slide">
         <i class="fas fa-envelope" style="font-size:28px;"></i>
       </a>
 
