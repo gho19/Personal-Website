@@ -517,3 +517,7 @@ section{
 section.visible {
   opacity: 1;
 }
+
+div {
+  width: 100%;
+}
