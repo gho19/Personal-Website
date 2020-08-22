@@ -98,7 +98,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"languages\":[\"en\",\"it\",\"es\",\"de\",\"fr\",\"pt\"],\"translations\":{\"en\":{\"open_in_\":\"open in \",\"cc_\":\"cc \",\"bcc_\":\"bcc \",\"subject_\":\"subject \",\"body_\":\"body \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"call\",\"open\":\"open\",\"_default\":\" default\",\"_as_default\":\" as default\",\"copy\":\"copy\"},\"it\":{\"open_in_\":\"apri con \",\"cc_\":\"cc \",\"bcc_\":\"ccn \",\"subject_\":\"oggetto \",\"body_\":\"testo \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"chiama\",\"open\":\"apri\",\"_default\":\" \",\"_as_default\":\" \",\"copy\":\"copia\"},\"es\":{\"open_in_\":\"abrir con \",\"cc_\":\"cc \",\"bcc_\":\"cco \",\"subject_\":\"asunto \",\"body_\":\"cuerpo \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"llamar\",\"open\":\"abrir\",\"_default\":\" predefinido\",\"_as_default\":\" por defecto\",\"copy\":\"copiar\"},\"de\":{\"open_in_\":\"Öffnen in \",\"cc_\":\"cc \",\"bcc_\":\"bcc \",\"subject_\":\"Betreff \",\"body_\":\"Nachricht \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"Anrufen\",\"open\":\"Öffnen\",\"_default\":\" mit Standard\",\"_as_default\":\" mit Standard\",\"copy\":\"kopieren\"},\"pt\":{\"open_in_\":\"abrir com \",\"cc_\":\"cc \",\"bcc_\":\"cco \",\"subject_\":\"assunto \",\"body_\":\"corpo \",\"call\":\"ligar\",\"open\":\"abrir\",\"_default\":\" padrão\",\"_as_default\":\" por padrão\",\"copy\":\"copiar\"},\"fr\":{\"open_in_\":\"Ouvrir dans \",\"cc_\":\"cc \",\"bcc_\":\"cci \",\"subject_\":\"sujet \",\"body_\":\"contenu \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"Appeler\",\"open\":\"Ouvrir\",\"_default\":\" par défaut\",\"_as_default\":\" par défaut\",\"copy\":\"Copier\"}}}");
+module.exports = JSON.parse("{\"languages\":[\"en\",\"it\",\"es\",\"de\",\"fr\",\"pt\",\"nl\",\"ru\"],\"translations\":{\"en\":{\"open_in_\":\"open in \",\"cc_\":\"cc \",\"bcc_\":\"bcc \",\"subject_\":\"subject \",\"body_\":\"body \",\"gmail\":\"Gmail\",\"outlook\":\"Outlook\",\"telegram\":\"Telegram\",\"whatsapp\":\"WhatsApp\",\"skype\":\"Skype\",\"call\":\"call\",\"open\":\"open\",\"_default\":\" default\",\"_as_default\":\" as default\",\"copy\":\"copy\"},\"it\":{\"open_in_\":\"apri con \",\"bcc_\":\"ccn \",\"subject_\":\"oggetto \",\"body_\":\"testo \",\"call\":\"chiama\",\"open\":\"apri\",\"_default\":\" \",\"_as_default\":\" \",\"copy\":\"copia\"},\"es\":{\"open_in_\":\"abrir con \",\"bcc_\":\"cco \",\"subject_\":\"asunto \",\"body_\":\"cuerpo \",\"call\":\"llamar\",\"open\":\"abrir\",\"_default\":\" predefinido\",\"_as_default\":\" por defecto\",\"copy\":\"copiar\"},\"de\":{\"open_in_\":\"Öffnen in \",\"subject_\":\"Betreff \",\"body_\":\"Nachricht \",\"call\":\"Anrufen\",\"open\":\"Öffnen\",\"_default\":\" mit Standard\",\"_as_default\":\" mit Standard\",\"copy\":\"kopieren\"},\"pt\":{\"open_in_\":\"abrir com \",\"bcc_\":\"cco \",\"subject_\":\"assunto \",\"body_\":\"corpo \",\"call\":\"ligar\",\"open\":\"abrir\",\"_default\":\" padrão\",\"_as_default\":\" por padrão\",\"copy\":\"copiar\"},\"fr\":{\"open_in_\":\"Ouvrir dans \",\"bcc_\":\"cci \",\"subject_\":\"sujet \",\"body_\":\"contenu \",\"call\":\"Appeler\",\"open\":\"Ouvrir\",\"_default\":\" par défaut\",\"_as_default\":\" par défaut\",\"copy\":\"Copier\"},\"nl\":{\"subject_\":\"onderwerp \",\"body_\":\"bericht \",\"call\":\"bellen\",\"open\":\"openen\",\"_default\":\" standaard\",\"_as_default\":\" als standaard\",\"copy\":\"kopiëren\"},\"ru\":{\"open_in_\":\"открыть в \",\"subject_\":\"тема \",\"body_\":\"тело \",\"call\":\"позвонить\",\"open\":\"открыть\",\"_default\":\" по умолчанию\",\"_as_default\":\" по умолчанию\",\"copy\":\"скопировать\"}}}");
 
 /***/ }),
 /* 1 */
@@ -120,11 +120,11 @@ module.exports = JSON.parse("{\"languages\":[\"en\",\"it\",\"es\",\"de\",\"fr\",
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(3);
-exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".m-modal{position:fixed;top:0;right:0;bottom:0;left:0;justify-content:center;align-items:center;flex-direction:column;overflow:hidden;font-size:15px;z-index:10000}.m-modal p,.m-modal span,.m-modal strong,.m-modal a{margin:0;padding:0;font-size:100%;line-height:1;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";text-rendering:optimizeLegibility}.m-modal strong{font-weight:700}.m-modal .m-modal-back{position:absolute;z-index:10001;top:0;right:0;bottom:0;left:0;background-color:#20232a;opacity:0.8}.m-modal .m-modal-content{position:relative;z-index:10002;box-sizing:content-box;text-align:center;min-width:200px;max-width:240px;background-color:#fff;opacity:0.95;border-radius:20px;box-shadow:0 3px 20px rgba(32,35,42,0.5);color:#4a4a4a;display:flex;flex-direction:column;overflow:auto;padding:24px;transition:0.5s box-shadow}.m-modal .m-modal-content:hover{opacity:1}.m-modal .m-modal-content .m-title{margin-bottom:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.2em}.m-modal .m-modal-content .m-details{margin-bottom:10px}.m-modal .m-modal-content .m-details p{font-size:12px;margin-top:3px;margin-bottom:3px}.m-modal .m-modal-content a{padding:10px;color:#4a4a4a;border-radius:20px;text-decoration:none}.m-modal .m-modal-content a.m-gmail{color:#d44638}.m-modal .m-modal-content a.m-gmail:hover{background-color:rgba(212,70,56,0.08);color:#d44638}.m-modal .m-modal-content a.m-outlook{color:#0072c6}.m-modal .m-modal-content a.m-outlook:hover{background-color:rgba(0,114,198,0.08);color:#0072c6}.m-modal .m-modal-content a.m-tg{color:#08c}.m-modal .m-modal-content a.m-tg:hover{background-color:rgba(0,136,204,0.08);color:#08c}.m-modal .m-modal-content a.m-wa{color:#00bfa5}.m-modal .m-modal-content a.m-wa:hover{background-color:rgba(0,191,165,0.08);color:#00bfa5}.m-modal .m-modal-content a.m-skype{color:#00aff0}.m-modal .m-modal-content a.m-skype:hover{background-color:rgba(0,175,240,0.08);color:#00aff0}.m-modal .m-modal-content a.m-copy{padding:16px 10px;font-size:16px}.m-modal .m-modal-content a.m-default:hover,.m-modal .m-modal-content a.m-copy:hover{background-color:rgba(0,0,0,0.08);color:#4a4a4a}.m-modal .m-modal-content a.m-by{font-size:9px;margin-top:0.8rem;padding:5px;color:#4a4a4a;opacity:0.55}.m-modal .m-modal-content a.m-by:hover{opacity:1}.m-modal .m-modal-content .w-500{font-weight:500}.m-modal.m-dark .m-modal-content{background-color:#20232a}.m-modal.m-dark .m-modal-content,.m-modal.m-dark .m-modal-content p,.m-modal.m-dark .m-modal-content p span,.m-modal.m-dark .m-modal-content strong{color:#fff}.m-modal.m-dark .m-modal-content a{color:#eaeaea}.m-modal.m-dark .m-modal-content a:not(.m-by):hover{background-color:rgba(134,134,134,0.08);color:#eaeaea}.m-modal.m-dark .m-modal-content a.m-gmail{color:#e07d73}.m-modal.m-dark .m-modal-content a.m-gmail:hover{background-color:rgba(212,70,56,0.08);color:#e07d73}.m-modal.m-dark .m-modal-content a.m-outlook{color:#4c9cd7}.m-modal.m-dark .m-modal-content a.m-outlook:hover{background-color:rgba(0,114,198,0.08);color:#4c9cd7}.m-modal.m-dark .m-modal-content a.m-tg{color:#4cabdb}.m-modal.m-dark .m-modal-content a.m-tg:hover{background-color:rgba(0,136,204,0.08);color:#4cabdb}.m-modal.m-dark .m-modal-content a.m-wa{color:#4cd2c0}.m-modal.m-dark .m-modal-content a.m-wa:hover{background-color:rgba(0,191,165,0.08);color:#4cd2c0}.m-modal.m-dark .m-modal-content a.m-skype{color:#4cc7f4}.m-modal.m-dark .m-modal-content a.m-skype:hover{background-color:rgba(0,175,240,0.08);color:#4cc7f4}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.i, ".m-modal{position:fixed;top:0;right:0;bottom:0;left:0;justify-content:center;align-items:center;flex-direction:column;overflow:hidden;font-size:16.5px;z-index:10000}.m-modal p,.m-modal span,.m-modal strong,.m-modal a{margin:0;padding:0;font-size:100%;line-height:1;font-family:-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\";text-rendering:optimizeLegibility}.m-modal strong{font-weight:700}.m-modal .m-modal-back{position:absolute;z-index:10001;top:0;right:0;bottom:0;left:0;background-color:#20232a;opacity:0.8}.m-modal .m-modal-content{position:relative;z-index:10002;box-sizing:content-box;text-align:center;min-width:200px;max-width:240px;background-color:#fff;opacity:0.95;border-radius:20px;box-shadow:0 3px 20px rgba(32,35,42,0.5);color:#4a4a4a;display:flex;flex-direction:column;overflow:auto;padding:24px;transition:0.5s box-shadow}.m-modal .m-modal-content:hover,.m-modal .m-modal-content:focus,.m-modal .m-modal-content:active{opacity:1}.m-modal .m-modal-content .m-title{margin-bottom:8px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;line-height:1.2em}.m-modal .m-modal-content .m-details{margin-bottom:10px}.m-modal .m-modal-content .m-details p{font-size:12px;margin-top:3px;margin-bottom:3px}.m-modal .m-modal-content a{cursor:pointer;padding:10px;color:#4a4a4a;border-radius:20px;text-decoration:none}.m-modal .m-modal-content a.m-gmail{color:#d44638}.m-modal .m-modal-content a.m-gmail:hover,.m-modal .m-modal-content a.m-gmail:focus,.m-modal .m-modal-content a.m-gmail:active{background-color:rgba(212,70,56,0.08);color:#d44638}.m-modal .m-modal-content a.m-outlook{color:#0072c6}.m-modal .m-modal-content a.m-outlook:hover,.m-modal .m-modal-content a.m-outlook:focus,.m-modal .m-modal-content a.m-outlook:active{background-color:rgba(0,114,198,0.08);color:#0072c6}.m-modal .m-modal-content a.m-tg{color:#08c}.m-modal .m-modal-content a.m-tg:hover,.m-modal .m-modal-content a.m-tg:focus,.m-modal .m-modal-content a.m-tg:active{background-color:rgba(0,136,204,0.08);color:#08c}.m-modal .m-modal-content a.m-wa{color:#00bfa5}.m-modal .m-modal-content a.m-wa:hover,.m-modal .m-modal-content a.m-wa:focus,.m-modal .m-modal-content a.m-wa:active{background-color:rgba(0,191,165,0.08);color:#00bfa5}.m-modal .m-modal-content a.m-skype{color:#00aff0}.m-modal .m-modal-content a.m-skype:hover,.m-modal .m-modal-content a.m-skype:focus,.m-modal .m-modal-content a.m-skype:active{background-color:rgba(0,175,240,0.08);color:#00aff0}.m-modal .m-modal-content a.m-copy{padding:16px 10px;font-size:16px}.m-modal .m-modal-content a.m-default:hover,.m-modal .m-modal-content a.m-default:focus,.m-modal .m-modal-content a.m-default:active,.m-modal .m-modal-content a.m-copy:hover,.m-modal .m-modal-content a.m-copy:focus,.m-modal .m-modal-content a.m-copy:active{background-color:rgba(0,0,0,0.08);color:#4a4a4a}.m-modal .m-modal-content a.m-by{font-size:12px;margin-top:0.8rem;padding:5px;color:#4a4a4a}.m-modal .m-modal-content a.m-by:hover,.m-modal .m-modal-content a.m-by:focus,.m-modal .m-modal-content a.m-by:active{color:#3d3d3d}.m-modal .m-modal-content .w-500{font-weight:500}.m-modal.m-dark .m-modal-content{background-color:#20232a}.m-modal.m-dark .m-modal-content,.m-modal.m-dark .m-modal-content p,.m-modal.m-dark .m-modal-content p span,.m-modal.m-dark .m-modal-content strong{color:#fff}.m-modal.m-dark .m-modal-content a{color:#eaeaea}.m-modal.m-dark .m-modal-content a:not(.m-by):hover,.m-modal.m-dark .m-modal-content a:not(.m-by):focus,.m-modal.m-dark .m-modal-content a:not(.m-by):active{background-color:rgba(134,134,134,0.08);color:#eaeaea}.m-modal.m-dark .m-modal-content a.m-gmail{color:#e07d73}.m-modal.m-dark .m-modal-content a.m-gmail:hover,.m-modal.m-dark .m-modal-content a.m-gmail:focus,.m-modal.m-dark .m-modal-content a.m-gmail:active{background-color:rgba(212,70,56,0.08);color:#e07d73}.m-modal.m-dark .m-modal-content a.m-outlook{color:#4c9cd7}.m-modal.m-dark .m-modal-content a.m-outlook:hover,.m-modal.m-dark .m-modal-content a.m-outlook:focus,.m-modal.m-dark .m-modal-content a.m-outlook:active{background-color:rgba(0,114,198,0.08);color:#4c9cd7}.m-modal.m-dark .m-modal-content a.m-tg{color:#4cabdb}.m-modal.m-dark .m-modal-content a.m-tg:hover,.m-modal.m-dark .m-modal-content a.m-tg:focus,.m-modal.m-dark .m-modal-content a.m-tg:active{background-color:rgba(0,136,204,0.08);color:#4cabdb}.m-modal.m-dark .m-modal-content a.m-wa{color:#4cd2c0}.m-modal.m-dark .m-modal-content a.m-wa:hover,.m-modal.m-dark .m-modal-content a.m-wa:focus,.m-modal.m-dark .m-modal-content a.m-wa:active{background-color:rgba(0,191,165,0.08);color:#4cd2c0}.m-modal.m-dark .m-modal-content a.m-skype{color:#4cc7f4}.m-modal.m-dark .m-modal-content a.m-skype:hover,.m-modal.m-dark .m-modal-content a.m-skype:focus,.m-modal.m-dark .m-modal-content a.m-skype:active{background-color:rgba(0,175,240,0.08);color:#4cc7f4}.m-modal.m-dark .m-modal-content a.m-by:hover,.m-modal.m-dark .m-modal-content a.m-by:focus,.m-modal.m-dark .m-modal-content a.m-by:active{color:#fff}\n", ""]);
 // Exports
-module.exports = exports;
+module.exports = ___CSS_LOADER_EXPORT___;
 
 
 /***/ }),
@@ -235,13 +235,16 @@ function toComment(sourceMap) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// EXTERNAL MODULE: ../i18n/i18n.json
-var i18n = __webpack_require__(0);
-var i18n_namespaceObject = /*#__PURE__*/__webpack_require__.t(i18n, 2);
-
 // CONCATENATED MODULE: ../src/mailgo.ts
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 // i18n for mailgo
- // mailgo scss
+var i18n = __webpack_require__(0); // mailgo scss
+
 
 var mailgoCSS = __webpack_require__(1).toString(); // default lang
 
@@ -250,7 +253,9 @@ var DEFAULT_LANG = "en"; // links
 
 var MAILTO = "mailto:";
 var TEL = "tel:";
-var CALLTO = "callto:"; // mailgo types
+var CALLTO = "callto:"; // deep linking
+
+var outlookDeepLink = "ms-outlook://"; // mailgo types
 
 var MAIL_TYPE = "mail";
 var TEL_TYPE = "tel"; // default href for links
@@ -288,14 +293,14 @@ var gmail, outlook, mailgo_open, telegram, wa, skype, call, copyMail, copyTel;
  * the function that creates the mailgo elements in DOM
  */
 
-var mailgo_mailgoInit = function mailgoInit() {
+var mailgoInit = function mailgoInit() {
   var _config, _config2;
 
   // translations
-  var _ref = i18n_namespaceObject,
+  var _ref = i18n,
       translations = _ref.translations; // if a default language is defined use it
 
-  if (((_config = config) === null || _config === void 0 ? void 0 : _config.lang) && i18n["languages"].includes(config.lang)) {
+  if (((_config = config) === null || _config === void 0 ? void 0 : _config.lang) && i18n.languages.indexOf(config.lang) !== -1) {
     lang = config.lang;
   } // if is defined <html lang=""> use it!
 
@@ -304,7 +309,7 @@ var mailgo_mailgoInit = function mailgoInit() {
     // keep the lang from html
     var htmlLang = document.documentElement.lang; // if there are translations...
 
-    if (i18n["languages"].includes(htmlLang)) {
+    if (i18n.languages.indexOf(htmlLang) !== -1) {
       lang = document.documentElement.lang;
     }
   } // strings
@@ -314,7 +319,7 @@ var mailgo_mailgoInit = function mailgoInit() {
   var strings = translations[lang]; // mailgo mail
 
   {
-    var _config3;
+    var _config3, _config4, _config5;
 
     // modal
     modalMailto = createElement();
@@ -432,8 +437,12 @@ var mailgo_mailgoInit = function mailgoInit() {
     copyMail.classList.add("m-copy");
     copyMail.classList.add("w-500");
     copyMail.appendChild(createTextNode(strings.copy || defaultStrings.copy));
-    modalContent.appendChild(copyMail);
-    modalContent.appendChild(byElement()); // add the modal at the end of the body
+    modalContent.appendChild(copyMail); // hide mailgo.dev in footer only if showFooter is defined and equal to false
+
+    if (typeof ((_config4 = config) === null || _config4 === void 0 ? void 0 : _config4.showFooter) === "undefined" || ((_config5 = config) === null || _config5 === void 0 ? void 0 : _config5.showFooter) !== false) {
+      modalContent.appendChild(byElement());
+    } // add the modal at the end of the body
+
 
     document.body.appendChild(modalMailto); // every click outside the modal will hide the modal
 
@@ -441,7 +450,7 @@ var mailgo_mailgoInit = function mailgoInit() {
   } // mailgo tel
 
   {
-    var _config4;
+    var _config6, _config7, _config8;
 
     // modal
     modalTel = createElement();
@@ -452,7 +461,7 @@ var mailgo_mailgoInit = function mailgoInit() {
     modalTel.setAttribute("tabindex", "-1");
     modalTel.setAttribute("aria-labelledby", "m-tel-title"); // if dark is in config
 
-    if ((_config4 = config) === null || _config4 === void 0 ? void 0 : _config4.dark) {
+    if ((_config6 = config) === null || _config6 === void 0 ? void 0 : _config6.dark) {
       enableDarkMode(TEL_TYPE);
     } else {
       disableDarkMode(TEL_TYPE);
@@ -541,9 +550,12 @@ var mailgo_mailgoInit = function mailgoInit() {
     copyTel.classList.add("w-500");
     copyTel.appendChild(createTextNode(strings.copy || defaultStrings.copy));
 
-    _modalContent.appendChild(copyTel);
+    _modalContent.appendChild(copyTel); // hide mailgo.dev in footer only if showFooter is defined and equal to false
 
-    _modalContent.appendChild(byElement()); // add the modal at the end of the body
+
+    if (typeof ((_config7 = config) === null || _config7 === void 0 ? void 0 : _config7.showFooter) === "undefined" || ((_config8 = config) === null || _config8 === void 0 ? void 0 : _config8.showFooter) !== false) {
+      _modalContent.appendChild(byElement());
+    } // add the modal at the end of the body
 
 
     document.body.appendChild(modalTel); // every click outside the modal will hide the modal
@@ -560,14 +572,14 @@ var mailgo_mailgoInit = function mailgoInit() {
 
 
 function mailgoRender() {
-  var _config7;
+  var _config11;
 
   var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : MAIL_TYPE;
   var mailgoElement = arguments.length > 1 ? arguments[1] : undefined;
 
   // mailgo mail
   if (type === MAIL_TYPE) {
-    var _config5, _config6;
+    var _config9, _config10;
 
     // if the element href=^"mailto:"
     if (mailgoElement.href && mailgoElement.href.toLowerCase().startsWith(MAILTO)) {
@@ -594,7 +606,7 @@ function mailgoRender() {
       bodyMail = mailgoElement.getAttribute("data-body");
     }
 
-    if (typeof ((_config5 = config) === null || _config5 === void 0 ? void 0 : _config5.validateEmail) === "undefined" || ((_config6 = config) === null || _config6 === void 0 ? void 0 : _config6.validateEmail) === true) {
+    if (typeof ((_config9 = config) === null || _config9 === void 0 ? void 0 : _config9.validateEmail) === "undefined" || ((_config10 = config) === null || _config10 === void 0 ? void 0 : _config10.validateEmail) === true) {
       // validate the email address
       if (!validateEmails(mail.split(","))) return; // if cc, bcc are not valid cc, bcc = ""
 
@@ -662,7 +674,7 @@ function mailgoRender() {
     } // if config.dark is set to true then all the modals will be in dark mode
 
 
-  if (!((_config7 = config) === null || _config7 === void 0 ? void 0 : _config7.dark)) {
+  if (!((_config11 = config) === null || _config11 === void 0 ? void 0 : _config11.dark)) {
     // if the element contains dark as class enable dark mode
     if (mailgoElement.classList.contains("dark")) {
       enableDarkMode(type);
@@ -1093,31 +1105,33 @@ var mailgoStyle = function mailgoStyle() {
 
 
 function mailgo(mailgoConfig) {
-  // set the global config
-  config = mailgoConfig; // if the window is defined...
+  var _window;
+
+  // set the global config merging window mailgConfig and mailgoConfig passed as a parameter
+  config = _objectSpread(_objectSpread({}, mailgoConfig), ((_window = window) === null || _window === void 0 ? void 0 : _window.mailgoConfig) || null); // if the window is defined...
 
   if (window && typeof window !== "undefined") {
-    var _config8;
+    var _config12;
 
     // add the style for mailgo
     mailgoStyle(); // if is set an initEvent add the listener
 
-    if ((_config8 = config) === null || _config8 === void 0 ? void 0 : _config8.initEvent) {
-      var _config9;
+    if ((_config12 = config) === null || _config12 === void 0 ? void 0 : _config12.initEvent) {
+      var _config13;
 
-      if ((_config9 = config) === null || _config9 === void 0 ? void 0 : _config9.listenerOptions) {
+      if ((_config13 = config) === null || _config13 === void 0 ? void 0 : _config13.listenerOptions) {
         // listener options specified
         document.addEventListener(config.initEvent, function () {
-          mailgo_mailgoInit();
+          mailgoInit();
         }, config.listenerOptions);
       } else {
         // no listener options
         document.addEventListener(config.initEvent, function () {
-          mailgo_mailgoInit();
+          mailgoInit();
         });
       }
     } else {
-      mailgo_mailgoInit();
+      mailgoInit();
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "languages": ["en", "it", "es", "de", "fr", "pt"],
+  "languages": ["en", "it", "es", "de", "fr", "pt", "nl", "ru"],
   "translations": {
     "en": {
       "open_in_": "open in ",
@@ -20,15 +20,9 @@
     },
     "it": {
       "open_in_": "apri con ",
-      "cc_": "cc ",
       "bcc_": "ccn ",
       "subject_": "oggetto ",
       "body_": "testo ",
-      "gmail": "Gmail",
-      "outlook": "Outlook",
-      "telegram": "Telegram",
-      "whatsapp": "WhatsApp",
-      "skype": "Skype",
       "call": "chiama",
       "open": "apri",
       "_default": " ",
@@ -37,15 +31,9 @@
     },
     "es": {
       "open_in_": "abrir con ",
-      "cc_": "cc ",
       "bcc_": "cco ",
       "subject_": "asunto ",
       "body_": "cuerpo ",
-      "gmail": "Gmail",
-      "outlook": "Outlook",
-      "telegram": "Telegram",
-      "whatsapp": "WhatsApp",
-      "skype": "Skype",
       "call": "llamar",
       "open": "abrir",
       "_default": " predefinido",
@@ -54,15 +42,8 @@
     },
     "de": {
       "open_in_": "Öffnen in ",
-      "cc_": "cc ",
-      "bcc_": "bcc ",
       "subject_": "Betreff ",
       "body_": "Nachricht ",
-      "gmail": "Gmail",
-      "outlook": "Outlook",
-      "telegram": "Telegram",
-      "whatsapp": "WhatsApp",
-      "skype": "Skype",
       "call": "Anrufen",
       "open": "Öffnen",
       "_default": " mit Standard",
@@ -71,7 +52,6 @@
     },
     "pt": {
       "open_in_": "abrir com ",
-      "cc_": "cc ",
       "bcc_": "cco ",
       "subject_": "assunto ",
       "body_": "corpo ",
@@ -83,20 +63,33 @@
     },
     "fr": {
       "open_in_": "Ouvrir dans ",
-      "cc_": "cc ",
       "bcc_": "cci ",
       "subject_": "sujet ",
       "body_": "contenu ",
-      "gmail": "Gmail",
-      "outlook": "Outlook",
-      "telegram": "Telegram",
-      "whatsapp": "WhatsApp",
-      "skype": "Skype",
       "call": "Appeler",
       "open": "Ouvrir",
       "_default": " par défaut",
       "_as_default": " par défaut",
       "copy": "Copier"
+    },
+    "nl": {
+      "subject_": "onderwerp ",
+      "body_": "bericht ",
+      "call": "bellen",
+      "open": "openen",
+      "_default": " standaard",
+      "_as_default": " als standaard",
+      "copy": "kopiëren"
+    },
+    "ru": {
+      "open_in_": "открыть в ",
+      "subject_": "тема ",
+      "body_": "тело ",
+      "call": "позвонить",
+      "open": "открыть",
+      "_default": " по умолчанию",
+      "_as_default": " по умолчанию",
+      "copy": "скопировать"
     }
   }
 }

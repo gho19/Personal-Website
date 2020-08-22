@@ -3,8 +3,8 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "es6",
-    "target": "es6",
+    "module": "ES6",
+    "target": "ES6",
     "jsx": "react",
     "allowJs": true,
     "moduleResolution": "node",
@@ -12,9 +12,12 @@
     "declaration": true
   },
   "include": [
-    "src",
     "mailgo.d.ts",
+    "src",
     "webpack/mailgo.lib.ts",
-    "webpack/mailgo.dist.ts"
+    "webpack/mailgo.dist.ts",
+    "webpack/mailgo.dist.dark.ts",
+    "webpack/mailgo.firefox.ts",
+    "webpack/mailgo.chrome.ts"
   ]
 }

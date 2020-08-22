@@ -370,7 +370,7 @@ body {
 /****************************************************/
 
 .half_highlight_blue {
-  background: linear-gradient(to top, #2d4a75 7%, transparent 1%);
+  background: linear-gradient(to top, #2d4a75 8%, transparent 0.5%);
 }
 
 .half_highlight_yellow {
@@ -507,10 +507,11 @@ a.slide:hover, a.slide:focus {
     animation-name: fade-in;
 }
 
-section {
+section{
   opacity: 0;
-  transition: opacity 1.2s;
+  transition: opacity 0.1s;
   background-color: #f5f5f5;
+  height: 100%;
 }
 
 section.visible {

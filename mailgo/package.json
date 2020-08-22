@@ -1,8 +1,8 @@
 {
   "_from": "mailgo",
-  "_id": "mailgo@0.9.10",
+  "_id": "mailgo@0.9.14",
   "_inBundle": false,
-  "_integrity": "sha512-sThu8qiltl2Q5FIDHh+27QbyuzY04cZE6tlvf2P9ObzQT1VeyB13TLU41ei1RUCWTw30kFBeAzJe7b9r46n3WQ==",
+  "_integrity": "sha512-WyQuAUdaKvBlJy5LIJ1QpLAkAMqfyFR4CX3j6yimAGY0kYG7pvacInogH7FO4wHDGDqk/FUbmvKuIoMDAxK0lg==",
   "_location": "/mailgo",
   "_phantomChildren": {},
   "_requested": {
@@ -19,8 +19,8 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/mailgo/-/mailgo-0.9.10.tgz",
-  "_shasum": "b4c2cea87e9552adafc06b3b5cb3429792ccdb11",
+  "_resolved": "https://registry.npmjs.org/mailgo/-/mailgo-0.9.14.tgz",
+  "_shasum": "fb3ea9c3dfdb7b779baa392721506767a214e173",
   "_spec": "mailgo",
   "_where": "/Users/gho/Desktop/Personal-Website",
   "author": {
@@ -37,23 +37,21 @@
   "description": "a new concept of mailto and tel links",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/parser": "^7.10.5",
-    "@babel/preset-env": "^7.10.4",
-    "@babel/preset-flow": "^7.10.4",
+    "@babel/core": "^7.11.0",
+    "@babel/parser": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4",
-    "@babel/types": "^7.10.5",
+    "@babel/types": "^7.11.0",
+    "@types/node": "^14.0.27",
     "babel-loader": "^8.1.0",
-    "css-loader": "^3.6.0",
-    "jest": "^26.1.0",
+    "css-loader": "^4.1.1",
     "node-sass": "^4.14.1",
     "sass-loader": "^9.0.2",
-    "terser-webpack-plugin": "^3.0.7",
+    "style-loader": "^1.2.1",
     "to-string-loader": "^1.1.6",
     "ts-loader": "^8.0.1",
     "typescript": "^3.9.7",
-    "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.43.0",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
   "funding": {
@@ -81,10 +79,9 @@
     "url": "git+https://github.com/manzinello/mailgo.git"
   },
   "scripts": {
-    "build": "webpack",
-    "test": "jest"
+    "build": "webpack"
   },
   "sideEffects": false,
   "types": "./mailgo.d.ts",
-  "version": "0.9.10"
+  "version": "0.9.14"
 }
