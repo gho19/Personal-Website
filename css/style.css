@@ -302,7 +302,8 @@ body {
 
   .text {
     color: #333;
-    font-size: 12px;
+    font-size: 11px;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -331,8 +332,6 @@ body {
   height: 100%;
   width: 100%;
   opacity: 0;
-  padding: 10px;
-  padding-left: 10px;
   transition: .5s ease;
   background-color: white;
 }
@@ -347,6 +346,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  width: 100%;
+  padding: 24px;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
