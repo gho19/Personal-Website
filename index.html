@@ -1,496 +1,270 @@
 <!DOCTYPE html>
-<html>
-<title>Grant Ho</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/navbar.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/icon.png"/>
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta property="og:title" content="Grant Ho" />
-<meta property="og:url" content="https://www.grantho.com" />
-<meta property="og:image" content="img/preview.png" />
-
-
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="icon" type="image/png" href="img/g.png"/>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-174172610-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-174172610-1');
-</script>
-
-<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js"></script>
-<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
-<script src='https://kit.fontawesome.com/a076d05399.js'></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
-</script>
-<script src="js/navbar.js"></script>
-<script src="js/scrolling.js"></script>
-<script src="js/jquery.js"></script>
-<script src="js/fadein.js"></script>
+    <meta property="og:image" content="img/icon.png" />
+    <meta property="og:description" content="I'm a Computer Science, UX Design,
+    and Entrepreneurship student at the University of Michigan with passions for
+    healthcare, technology, sustainability,
+    sports analytics, and startups. I'm a driven, passionate, and
+    team-oriented leader always looking to learn and grow to make a
+    difference in the world." />
+    <title>Grant Ho | Portfolio Website</title>
+</head>
 
 <body>
+  <script> document.body.className = 'fade'; </script>
+  <script> AOS.init(); </script>
 
-  <!------------------ FADE IN ---------------------->
-  <script src="dist/aos.js"></script>
-    <script>
-      document.querySelector('html').classList.remove('no-js');
-      if (!window.Cypress) {
-        const scrollCounter = document.querySelector('.js-scroll-counter');
-
-        AOS.init({
-          mirror: true
-        });
-
-
-        window.addEventListener('scroll', function() {
-          scrollCounter.innerHTML = window.pageYOffset;
-        });
-      }
-    </script>
-
-
-<!------------------ HEADER ---------------------->
-<div class="phone-width">
-  <div class="header">
-    <svg id="fader"></svg>
-    <script>
-       fadeInPage();
-    </script>
-    <a href="https://grantho.com" class="logo"><span class="half_highlight_yellow">GRANT HO</span></a>
-      <div class="header-right" style="padding:15px;">
-        <a href="#about"><b>about me</b></a>
-        <a href="#experience"><b>experience</b></a>
-        <a href="#projects"><b>projects</b></a>
-        <a href="#contact"><b>contact</b></a>
-        <a href="https://medium.com/@grantyho" target="_blank"><b>blog</b></a>
-        <a href="Grant_Ho_Resume.pdf" target="_blank"><b>resume</b></a>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <a href="https://grantho.com/"><img src="img/icon.png" alt="GH" width="80vh"></a>
       </div>
+
+      <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+        <ul class="nav-links">
+            <li><a href="#about">about me</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="Grant_Ho_Resume.pdf" target="_blank">resume</a></li>
+        </ul>
+    </nav>
+    <script src="js/navbar.js"></script>
+
+    <!-- About -->
+    <div class="about" id="about">
+      <h1>Hi, I'm Grant Ho</h1>
+        <h2><span style="color:#FF5757">Product Manager</span> |
+            <span style="color:#FFDE59">UX Designer</span> |
+            <span style="color:#7ED957">Entrepreneur</span> |
+            <span style="color:#38B6FF">Engineer</span>
+        </h2>
+      <br>
+      <img class="photo" src="img/g.png">
+      <br><br>
+      <h3 style="color:#A6A6A6">Junior at the University of Michigan 〽️</h3>
+      <br>
+      <h3 style="color:#A6A6A6">Currently based in Denver, CO 🏔</h3>
     </div>
-  </div>
 
-
-  <!------------------ ABOUT ME ---------------------->
-  <div>
-    <div id="about" class="aboutme">
-      <img src="img/headshot.png" class="responsive" class="image">
-
-      <h2 style="margin-top:-25px"><b>👋 I'm Grant Ho</b></h2>
-
-        <p3>I'm a Computer Science, UX Design, and Entrepreneurship student at the University of Michigan with passions for healthcare, technology, sustainability, sports analytics, and startups.
-          I'm a driven, passionate, and team-oriented leader always looking to learn and grow to make a difference in the world.</p3>
-        <br></br>
-        <p3>I was born and raised in Denver, CO and enjoy an active lifestyle skiing, hiking, playing soccer, and Spikeball.</p3>
-        <br></br>
-        <p3>Some fun facts: I am a die-hard Michigan Wolverine, avid Chelsea F.C. supporter, professional sports team owner, boba
-          tea connoisseur, amateur stock trader, and world traveler.</p3>
-        <br></br>
-        <p3>Please feel free to reach out!</p3>
-
-          <div class="logo-padding">
-
+    <div class="experience" id="experience">
+      <h4>Experience</h4>
+      <div class="row">
+        <div class="column-2" data-aos="fade-up" data-aos-duration="600">
+          <div class="card-2">
+            <br></br><br></br>
+            <img src="img/samsung.png" alt="Samsung" width="325vh">
+            <br></br>
+            <h2>Product Planning Intern</h2>
             <br>
-            <!-- LinkedIn Button -->
-            <a href="https://www.linkedin.com/in/gho/" target="blank" class="social_container" style="text-align:center">
-              <ion-icon name="logo-linkedin" style="font-size:30px;"></ion-icon>
-            </a>
-             <!-- GitHub Button -->
-            <a href="https://github.com/gho19" target="blank" class="social_container" style="text-align:center">
-              <ion-icon name="logo-github" style="font-size:30px;"></ion-icon>
-            </a>
-            <!-- Email Button -->
-            <a href="mailto:grantho@umich.edu" target="blank" class="social_container" style="text-align:center">
-              <ion-icon name="mail-outline" style="font-size:30px;"></ion-icon>
-            </a>
-            <a href="https://medium.com/@grantyho" target="blank" class="social_container" style="text-align:center">
-              <ion-icon name="logo-medium" style="font-size:30px;"></ion-icon>
-            </a>
-
-          </div>
-    </div>
-
-
-  </div>
-
-
-
-  <!------------------ EXPERIENCE ---------------------->
-  <section id="experience" style ="background-color: #f5f5f5;">
-
-      <div class="timeline_padding">
-        <h2 class="center" style="border-bottom: 2px solid #2f5491; width: 158px;"><b>Experience</b></h2>
-      </div>
-    </div>
-  </section>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container left">
-        <div class="content" data-aos="fade-right" data-aos-duration="600" class="image">
-          <h3><b>May 2021</b></h3>
-          <p>Product Planning Intern</p>
-          <img src="img/samsung.png" style="width:90%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container right">
-        <div class="content" data-aos="fade-right" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Admitted to the Bachelor of Science in Information program through the School of Information to study UX Design.
-                              <br></br>
-            </div>
-          </div>
-          <h3><b>Mar. 2021</b></h3>
-          <p>University of Michigan School of Information</p>
-          <img src="img/umsi.png" style="width:100%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container left">
-        <div class="content" data-aos="fade-right" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Managed different stakeholders to define clear goals and timelines while collaboratively working with team to
-       develop product roadmap promoting sustainable eating and food waste elimination
-            </div>
-          </div>
-          <h3><b>Mar. 2021</b></h3>
-          <p>Product Fellow at Menon Labs 🌱</p>
-          <img src="img/menon.png" style="width:25%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container right">
-        <div class="content" data-aos="fade-down" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Grew professional community platform democratizing access to career growth, with over 12,000+ members and 70,000+ newsletter subscribers.
-            </div>
-          </div>
-          <h3><b>Sep. 2020</b></h3>
-          <p>Growth Intern at Ladder 🪜</p>
-          <img src="img/ladder.png" style="width:75%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container left">
-        <div class="content" data-aos="fade-right" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Assembled team to create platform for students interested in engaging with political activisim.
-                              <br></br>Learned fundamentals about PM'ing through weekly seminars and panels.
-            </div>
-          </div>
-          <h3><b>Sep. 2020</b></h3>
-          <p>Product Manager at MProduct 🦸🏻‍♂️</p>
-          <img src="img/mproduct.png" style="width:40%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container right">
-        <div class="content" data-aos="fade-up" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Assisted students in code quality and logic with projects, labs, and homework in introductory 1000+ student C++ course.
-            </div>
-          </div>
-          <h3><b>Aug. 2020</b></h3>
-          <p>EECS 183 Teaching Assitant 🧠</p>
-          <img src="img/cse.png" style="width:75%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container left">
-        <div class="content" data-aos="fade-down" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">2 week instensive web development program becoming proficient in HTML/CSS/JavaScript.
-            </div>
-          </div>
-          <h3><b>Jun. 2020</b></h3>
-          <p>Enlight Cohort #1 Member 👨🏻‍💻</p>
-          <img src="img/enlight.png" style="width:70%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container right">
-        <div class="content" data-aos="fade-right" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Implemented UX/UI improvements on user dashboard and weekly email reports with React, HTML, CSS, and JSON.
-              <br></br>Spearheaded sales and growth initiatives during Y Combinator (S20).
-            </div>
-          </div>
-          <h3><b>Jun. 2020</b></h3>
-          <p>Chief of Staff at Warmly, 🎉</p>
-          <img src="img/warmly.png" style="width:90%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container left">
-        <div class="content" data-aos="fade-right" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">In charge of new member education of finance covering topics including the stock market and personal finance. Manage organization’s budget and expenses.
-            </div>
-          </div>
-          <h3><b>Jan. 2020</b></h3>
-          <p>VP of Finance, Pi Sigma Epsilon, Professional Business Fraternity 📈</p>
-          <img src="img/pse.JPG" style="display: block; margin-left: auto; margin-right: auto; width:30%;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container right">
-        <div class="content" data-aos="fade-up" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Built and designed organization website using HTML, CSS, APIs and JavaScript.
-              Launched a national soccer conference with speakers including Alexi Lalas, Becky Sauerbrunn, Grant Wahl
-              and more discussing analytics, journalism, tactics, and health!
-            </div>
-          </div>
-          <h3><b>Dec. 2019</b></h3>
-          <p>Co-Founder of the Collegiate Soccer Society <br>Serve as the VP of Engineering + Design ⚽🎨</p>
-          <img src="img/css.png" style="width:80%; float:center; display: block; margin-left: auto;margin-right: auto;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container left">
-        <div class="content" data-aos="fade-down" data-aos-duration="600">
-          <h3><b>Aug. 2019</b></h3>
-          <p>Started at the University of Michigan 〽️</p>
-          <img src="img/umich.png" style="display: block; margin-left: auto; margin-right: auto; width:45%;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div style ="background-color: #f5f5f5;">
-    <div class="timeline">
-      <div class="container right">
-        <div class="content" data-aos="fade-right" data-aos-duration="600" class="image">
-          <div class="overlay">
-            <div class="text">Presented research about Electrophysiology at the American Heart Association conference.
-                            <br> Published research about Hypertension Medication Adherence to national journal.
-            </div>
-          </div>
-          <h3><b>Nov. 2018</b></h3>
-          <p>Medical Research Assitant 🫀</p>
-          <img src="img/cu.png" style="width:100%; float:center;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <!------------------ PROJECTS ---------------------->
-
-  <section id="projects" style="background-color:white;">
-    <div class="projects">
-      <h2 style="border-bottom: 2px solid #6f9fd6; width: 120px;"><b>Projects</b></h2>
-    </div>
-
-    <div class="projects">
-      <div class="row" data-aos="fade-up">
-
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Detecting Fake News with Machine Learning</b></span></h3>
-            <h3> </h3>
-            <p>Developed and used open source machine learning model to decipher fake versus true news from scraped data via Twitter, CNN, WSJ, NYT, and other reputable news sources.</p>
-              <a href="https://github.com/gho19/Detecting-Fake-News-ML" target="_blank" class="slide">View Project</a>
+            <h3>Summer 2021</h3>
           </div>
         </div>
 
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Hypertension Medication Adherence Research</b></span></h3>
-            <h3> </h3>
-            <p>Conducted research at the University of Colorado Anschutz Medical Campus to improve hypertension medication adherence and blood pressure control in patients.</p>
-              <a href="https://link.springer.com/article/10.1007/s11906-018-0830-x" target="_blank" class="slide">Read Article</a>
+        <div class="column-2" data-aos="fade-up" data-aos-duration="600">
+          <div class="card-2">
+            <br></br><br></br><br></br>
+            <img src="img/ladder.png" alt="Ladder" width="325vh">
+            <br></br>
+            <h2>Growth Intern</h2>
+            <br>
+            <h3>Fall 2020 - Spring 2021</h3>
           </div>
         </div>
 
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Reshipt App Concept Design</b></span></h3>
-            <h3> </h3>
-            <p>Developed concept for a mobile application helping constrained students return packages to locations that are inconvenient or inaccessible by foot. It's like Uber or Door Dash but for returning packages.</p>
-              <a href="reshipt" target="_blank" class="slide">View Concept</a>
+        <div class="column-2" data-aos="fade-up" data-aos-duration="600">
+          <div class="card-2">
+            <br></br><br></br><br></br><br>
+            <img src="img/warmly.svg" alt="Warmly," width="325vh">
+            <br></br>
+            <h2>Software Engineering Intern</h2>
+            <br>
+            <h3>Summer 2020</h3>
           </div>
         </div>
 
       </div>
-  </section>
 
-  <section style="background-color:white;">
-    <div class="projects">
+
+      <br><br><br><br></br>
+
+    </div>
+
+    <!-- Projects -->
+    <div class="projects" id="projects">
+      <h4>Projects</h4>
       <div class="row">
-
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Thank Blue</b></span></h3>
-            <p>Served as project manager, front-end lead, and head of social media in initiative to thank U-M healthcare workers for their bravery and sacrafice throughout the COVID-19 pandemic.</p>
-              <a href="https://www.youtube.com/watch?v=y5IIuYSzo5c" target="_blank" class="slide">See Project</a>
+        <div class="column" data-aos="fade-up" data-aos-duration="600">
+          <div class="card">
+            <img src="img/thank-blue.png" alt="Thank Blue" width="200vh">
+            <br>
+            <h5>Thank Blue</h5>
+            <br>
+            <p>Served as project manager, front-end lead, and head of social
+              media in initiative to thank U-M healthcare workers for their
+              bravery and sacrafice throughout the COVID-19 pandemic.</p>
+            <br></br>
+            <a href="https://thank-blue.web.app/">
+              <p>View Project</p>
+            </a>
           </div>
         </div>
 
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>AHA Poster Presentation</b></span></h3>
-            <p>Selected to present poster titled Continuity Matters: Uninterrupted Ablation is More Effective Than "Off and On" Ablation at the 2018 American Heart Association Conference in Chicago.</p>
-              <a href="img/aha_research.png" target="_blank" class="slide">See Poster</a>
+        <div class="column" data-aos="fade-up" data-aos-duration="600">
+          <div class="card">
+            <img src="img/plant-jammer.png" alt="Plant Jammer" width="200vh">
+            <br>
+            <h3>Menon Labs x Plant Jammer</h3>
+            <br>
+            <p>Developed product roadmap as Product Owner while collaborating
+              with designers and engineers to develop a web-based widget (MVP)
+              promoting sustainable eating and food waste elimination.
+            </p>
+            <br></br>
+            <a href="https://youtu.be/6jQ3GGRSVpk">
+              <p>View Demo</p>
+            </a>
           </div>
         </div>
 
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Glassroots App Design</b></span></h3>
-            <p>Gen-Z cares deeply about social issues but lacks a reliable vehicle to learn, create, or share current events and underrepresented history. Here's an interesting solution my team and I developed.</p>
-              <a href="https://allison-c.medium.com/m-product-managers-and-gen-z-change-makers-surveying-sociopolitical-issues-awareness-and-6b88aab6a48e" target="_blank" class="slide">View Project</a>
+        <div class="column" data-aos="fade-up" data-aos-duration="600">
+          <div class="card">
+            <img src="img/mproduct.png" alt="MProduct" width="255vh">
+            <br>
+            <h5>Glassroots</h5>
+            <br>
+            <p>Gen-Z cares deeply about social issues but lacks a reliable
+              vehicle to learn, create, or share current events and
+              underrepresented history. Here's an interesting solution
+              my team and I developed.</p>
+            <br></br>
+            <a href="https://allison-c.medium.com/m-product-managers-and-gen-z-change-makers-surveying-sociopolitical-issues-awareness-and-6b88aab6a48e">
+              <p>View Project</p>
+            </a>
           </div>
         </div>
 
-      </div>
-  </section>
-
-
-  <section style="background-color:white;">
-    <div class="projects">
-      <div class="row">
-
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>"Momentum" Chrome Extension</b></span></h3>
-            <p>Chrome extension similar to the popular Momentum extension that allows users to display and change scenic backgrounds when starting a Google search.</p>
-              <a href="https://chrome.google.com/webstore/detail/grant-homentum/kkjhooecpeljddkdegimlfleblaejikk?hl=en&authuser=0" target="_blank" class="slide">Try it here!</a>
-          </div>
-        </div>
-
-
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Pi Sigma Epsilon Organization Website</b></span></h3>
-            <p>Built and designed website for PSE Michigan using HTML, CSS, and JavaScript to highlight organization and to showcase commmunity to the UMich community.</p>
-              <a href="https://pse-umich.org/" target="_blank" class="slide">Try it here!</a>
-          </div>
-        </div>
-
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Collegiate Soccer Society Website</b></span></h3>
-            <h3> </h3>
-            <p>Built and designed website for the Collegiate Soccer Society @ Michigan using HTML, CSS, and JavaScript. Manage website posting about soccer analysis.</p>
-              <a href="https://michigansoccersociety.com" target="_blank" class="slide">Visit Website</a>
-          </div>
-        </div>
-
-      </div>
-
-      </div>
-
-  </section>
-
-  <section style="padding-bottom:75px; background-color:white;">
-    <div class="projects">
-      <div class="row">
-
-        <div class="column">
-          <div class="card" data-aos="fade-up">
-            <h3><span class="half_highlight_yellow"><b>Enlight Cohort Projects</b></span></h3>
-            <p>Through this two week intensive web development and data analytics cohort, I enhanced skills for HTML, CSS, and JavaScript while also learning more about APIs.</p>
-              <a href="https://github.com/gho19/Enlight-Cohort-Projects" target="_blank" class="slide">View Projects</a>
+        <div class="column" data-aos="fade-up" data-aos-duration="600">
+          <div class="card">
+            <img src="img/css.png" alt="CSS" width="145vh">
+            <br>
+            <h5>Collegiate Soccer Society</h5>
+            <br>
+            <p>Built and designed website for weekly blog posts about
+              the world of soccer. Orchestrated world-wide conference
+              discussing economics, statistics,
+              and culture surrounding U.S. soccer.</p>
+            <br></br>
+            <a href="http://cssmichigan.com/">
+              <p>View Website</p>
+            </a>
           </div>
         </div>
 
       </div>
-  </section>
-
-
-  <hr style="height:2.5px;border:none;color:white;background-color:#6f9fd6" />
-
-  <!------------------ FOOTER ---------------------->
-  <section id="contact" class="footer">
-    <div>
-      <p2><b><span class="half_highlight_yellow">Let's Connect!</span></b></p2>
-      <br>
-      <br>
-      <img src="img/gh.png" style="width: 65px">
-
-      <!-- LinkedIn Button -->
-      <a href="https://www.linkedin.com/in/gho/" target="blank" class="social_container" style="text-align:center">
-        <ion-icon name="logo-linkedin" style="font-size:28px;"></ion-icon>
-      </a>
-       <!-- GitHub Button -->
-      <a href="https://github.com/gho19" target="blank" class="social_container" style="text-align:center">
-        <ion-icon name="logo-github" style="font-size:28px;"></ion-icon>
-      </a>
-      <!-- Email Button -->
-      <a href="mailto:grantho@umich.edu" target="blank" class="social_container" style="text-align:center">
-        <ion-icon name="mail-outline" style="font-size:28px;"></ion-icon>
-      </a>
-      <a href="https://medium.com/@grantyho" target="blank" class="social_container" style="text-align:center">
-        <ion-icon name="logo-medium" style="font-size:28px;"></ion-icon>
-      </a>
-
-
 
       <br>
+
+      <div class="row">
+        <div class="column" data-aos="fade-up" data-aos-duration="600">
+          <div class="card">
+            <img src="img/cu.png" alt="CU Medicine" width="272vh">
+            <br>
+            <h5>Hypertension Medication Adherence Research</h5>
+            <br>
+            <p>Conducted research at the University of Colorado Anschutz
+              Medical Campus to improve hypertension medication adherence
+              and blood pressure control in patients.</p>
+            <br></br>
+            <a href="https://link.springer.com/article/10.1007/s11906-018-0830-x">
+              <p>View Publication</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="column" data-aos="fade-up" data-aos-duration="600">
+          <div class="card">
+            <img src="img/twitter.png" alt="MProduct" width="200vh">
+            <br>
+            <h5>Detecting Fake News with Machine Learning</h5>
+            <br>
+            <p>Developed and used open source machine learning model to
+              decipher fake versus true news from scraped data via Twitter,
+              CNN, WSJ, NYT, and other reputable news sources.</p>
+            <br></br>
+            <a href="https://github.com/gho19/Detecting-Fake-News-ML">
+              <p>View Project</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="column" data-aos="fade-up" data-aos-duration="600">
+          <div class="card">
+            <img src="img/aha.png" alt="MProduct" width="165vh">
+            <br>
+            <h5>American Heart Association Poster Presentation</h5>
+            <br>
+            <p>Selected to present poster titled Continuity Matters:
+              Uninterrupted Ablation is More Effective Than "Off and On"
+              Ablation at the 2018 American Heart Association Conference.</p>
+            <br></br>
+            <a href="img/aha_research.png">
+              <p>View Poster</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p2>Let's connect!</p2>
+      <br></br>
       <div>
-        <p>© 2020 Grant Ho. All Rights Reserved.</p>
+        <!-- LinkedIn Button -->
+        <a href="https://www.linkedin.com/in/gho/" target="blank" class="social_container">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="https://github.com/gho19" target="blank" class="social_container">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <!-- Email Button -->
+        <a href="mailto:grantho@umich.edu" target="blank" class="social_container">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
+        <br>
+        <br>
+        <div>
+          <p1>© 2021 GRANT HO. ALL RIGHTS RESERVED.</p1>
+        </div>
       </div>
-
     </div>
-  </section>
-</section>
 
-
+    <script>
+        document.addEventListener("DOMContentLoaded", function(e) {
+          document.body.className = '';
+        });
+    </script>
 </body>
-
-
 </html>

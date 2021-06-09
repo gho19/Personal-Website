@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+body {
+    overflow-x: hidden;
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
+}
+
+nav {
+    height: 14.25vh;
+    width: 100vw;
+    background-color: #181a23;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Styling logo*/
+
+.logo {
+  display: flex;
+  width: 10vw;
+  padding-top: 1vw;
+  padding-left: 5vw;
+  position: relative;
+  background-color: #181a23;
+}
+
+
+/*Styling Links*/
+.nav-links{
+    display: flex;
+    list-style: none;
+    width: 100vw;
+    padding: 0 0.7vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    margin: 0 0.7vw;
+    font-size: 18px;
+    color: #e3e3e3;
+
+}
+.nav-links li a:hover {
+    color: #e3e3e3;
+}
+.nav-links li {
+    position: relative;
+}
+
+/*Styling Hamburger Icon*/
+.hamburger div{
+    width: 30px;
+    height: 2px;
+    background: #e3e3e3;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    display: none;
+}
+
+/*Stying for small screens*/
+@media screen and (max-width: 1000px){
+    .logo {
+      display: flex;
+      width: 10vw;
+      padding-top: 1vw;
+      padding-left: 5vw;
+      position: relative;
+      background-color: #181a23;
+    }
+
+    nav {
+        position: fixed;
+        z-index: 3;
+        color: #181a23;
+    }
+    .hamburger{
+        display:block;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 50%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+        transition: all 0.7s ease;
+    }
+    .nav-links{
+        position: fixed;
+        background-color: #181a23;
+        height: 100vh;
+        width: 100%;
+        flex-direction: column;
+        clip-path: circle(50px at 90% -20%);
+        -webkit-clip-path: circle(50px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+    }
+    .nav-links.open{
+        clip-path: circle(1000px at 90% -10%);
+        -webkit-clip-path: circle(1000px at 90% -10%);
+        pointer-events: all;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .nav-links li:nth-child(1){
+        transition: all 0.5s ease 0.2s;
+    }
+    .nav-links li:nth-child(2){
+        transition: all 0.5s ease 0.4s;
+    }
+    .nav-links li:nth-child(3){
+        transition: all 0.5s ease 0.6s;
+    }
+    .nav-links li:nth-child(4){
+        transition: all 0.5s ease 0.7s;
+    }
+    .nav-links li:nth-child(5){
+        transition: all 0.5s ease 0.8s;
+    }
+    .nav-links li:nth-child(6){
+        transition: all 0.5s ease 0.9s;
+        margin: 0;
+    }
+    .nav-links li:nth-child(7){
+        transition: all 0.5s ease 1s;
+        margin: 0;
+    }
+    li.fade{
+        opacity: 1;
+    }
+}
+/*Animating Hamburger Icon on Click*/
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+}
+
+.dropbtn {
+  background-color: #181a23;
+  color: #333;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #181a23;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #e3e3e3;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #e3e3e3;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #181a23;
+}

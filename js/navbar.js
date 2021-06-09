@@ -1,17 +1,14 @@
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
+const hamburger = document.querySelector(".hamburger");
+const navLinks = document.querySelector(".nav-links");
+const links = document.querySelectorAll(".nav-links li");
 
-function fadeInPage() {
+hamburger.addEventListener('click', ()=>{
+   //Animate Links
+    navLinks.classList.toggle("open");
+    links.forEach(link => {
+        link.classList.toggle("fade");
+    });
 
-    if (!window.AnimationEvent) { return; }
-
-    var fader = document.getElementById('fader');
-    fader.classList.add('fade-out');
-}
+    //Hamburger Animation
+    hamburger.classList.toggle("toggle");
+});
