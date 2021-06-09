@@ -2,7 +2,7 @@
   background-color: #12141d;
   text-align: center;
   padding-top: 160px;
-  padding-bottom: 75px;
+  padding-bottom: 60px;
 }
 
 .projects {
@@ -19,6 +19,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding-bottom: 75px;
 }
 
 h1 {
