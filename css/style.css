@@ -99,7 +99,7 @@ h6 {
 }
 
 .nav-link{
-    font-size: 1.9rem;
+    font-size: 2.5rem;
     font-weight: 400;
     color: #7C91BC;
     padding-right: 1.3em;
@@ -350,6 +350,22 @@ h6 {
         border-radius: 10px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     }
+
+    .button:hover {
+        background-color: #E1F1FF;
+        border: none;
+        color: #415F8F;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 800;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
 }
 
 /*******************************/
@@ -548,7 +564,11 @@ h6 {
     .column-1 {
       width: 100%;
       display: block;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
+    }
+
+    .row-1 {
+        margin-top: -25px;
     }
 }
   
@@ -561,6 +581,7 @@ h6 {
     margin-right: auto;
     margin-left: auto;
     border-radius: 20px;
+    padding-bottom: 85px;
 }
 
 .foodtrip {
