@@ -419,7 +419,7 @@ h6 {
 .item4 {
     width: 100%;
     border-radius: 50%;
-    background-color: #E9D705;
+    background-color: #cac713;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     height: 400px;
     text-align: center;
@@ -459,6 +459,19 @@ h6 {
     width: 100%;
     border-radius: 50%;
     background-color: #088D87;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    height: 400px;
+    text-align: center;
+}
+
+.gopuff-logo {
+    padding-top: 5em;
+}
+
+.item8 {
+    width: 100%;
+    border-radius: 50%;
+    background-color: #1f477a;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     height: 400px;
     text-align: center;
