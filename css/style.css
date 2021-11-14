@@ -539,6 +539,12 @@ h6 {
         width: 300px;
         height: 300px;
     }
+
+    .item8 {
+        grid-column: 1;
+        width: 300px;
+        height: 300px;
+    }
 }
 
 /*******************************/
